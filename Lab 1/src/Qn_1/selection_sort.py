@@ -22,6 +22,6 @@ arr = [int(x) for x in arr]
 selection_sort(arr)
 
 # Print the sorted array
-print(len(arr))
+print("*****Sorting with selection sort*****")
 print("UnSorted array:", unsorted_arr)
 print("Sorted array:", arr)

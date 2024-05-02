@@ -4,6 +4,7 @@ from selection_sort import selection_sort
 
 class TestSelectionSort(unittest.TestCase):
     def test_selection_sort(self):
+        print("Testing selection sort with UnitTest")
         input_data = [3, 1, 2, 8, 5, 4]
         sorted_data = selection_sort(input_data)
         expected_data = [1, 2, 3, 4, 5, 8]

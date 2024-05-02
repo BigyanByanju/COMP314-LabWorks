@@ -22,5 +22,6 @@ arr = [int(x) for x in arr]
 insertion_sort(arr)
 
 # Print the sorted array
+print("*****Sorting with insertion sort*****")
 print("UnSorted array:", unsorted_arr)
 print("Sorted array:", arr)
